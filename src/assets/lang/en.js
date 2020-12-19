@@ -1,6 +1,5 @@
-(function($R)
-{
-    $R.lang['en'] = {
+(function ($) {
+$.Redactor.opts.langs['en'] = {
         "format": "Format",
         "image": "Image",
         "file": "File",
@@ -60,5 +59,5 @@
         "center": "Center",
         "undo": "Undo",
         "redo": "Redo"
-    };
-})(Redactor);
+   };
+})( jQuery );
